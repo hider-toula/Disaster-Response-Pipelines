@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contactez-Moi !</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+        <script src="js/script.js"></script>
+    </head>
+    
+    <header id="header" class="">
+            
+    </header><!-- /header -->
+    
+    <body>
+                <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="#skills">Contact</a></li>
+                        <li><a href="#experience">Summray</a></li>
+
+                    </ul>
+                </div>
+            
+            </div>
+        
+        </nav>
+       <div class="container">
+
+            <div class="divider"></div>
+            <div class="heading">
+                <h1>Disaster Response Piplines</h1>
+                <h3> Analyzing message data for disaster</h3>
+            </div>
+                
+           <div class="row">
+               <div class="col-lg-10 col-lg-offset-1">
+                    <form id="contact-form" method="post" action="" role="form">
+                        <div class="row">
+                            
+                            
+                            <div class="col-md-12">
+                                <textarea id="message" name="message" class="form-control" placeholder="Enter the Message to classify" rows="1.5"></textarea>
+                                <p class="comments"></p>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="button1" value="Classify Message">
+                            </div>    
+                        </div>
+                    </form>
+                </div>
+           </div>
+        </div>
+        
+    </body>
+
+</html>
