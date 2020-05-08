@@ -1,0 +1,76 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    margin: 70px 0px;
+    margin-top: 100px;
+    background: #0069d6;
+
+}
+.divider
+{
+    width:100px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0 auto;
+}
+.heading 
+{
+    text-align: center;
+    margin-bottom: 30px;        
+}
+h1
+{
+    
+    font-weight:bold;
+    color: #fff;
+}
+h3{
+    color: #ffa500;
+}
+#contact-form
+{
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+/*---  NEW  ------*/
+.blue
+{
+    color: #0069d6;
+}
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+#contact-form input[type=submit]
+{
+    margin: 10px auto 0px;
+    display: block;
+}
+.comments
+{
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px
+}
+
+.button1
+{
+    border: 1px solid #ddd;
+    background: #ffa500;
+    color: #fff;
+    width: 80%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover
+{
+    background: #333;
+    border-color: #ffa500;
+}
