@@ -61,13 +61,13 @@ Running [this command](#com) **from app directory** will start the web app where
 
 
 
-(img/master.jpg)
+![./](img/master.jpg)
 
 What the app will do is that it will classify the text message into categories so that appropriate relief agency can be reached out for help.
 
 
 
-(img/res1.jpg)
+![results](img/res1.jpg)
 
 <a id='run'></a>
 
