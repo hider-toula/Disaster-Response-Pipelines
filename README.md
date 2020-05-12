@@ -103,7 +103,7 @@ python models/train_classifier.py data/data.db models/model.pkl
 
 This will use cleaned data to train the model, improve the model with grid search and saved the model to a pickle file (model.pkl_).
 
-_classifier.pkl_ already exists but the above command will still run and replace the file will same information.
+model.pkl_ already exists but the above command will still run and replace the file will same information.
 
 
 <a id='starting'></a>
