@@ -12,9 +12,7 @@
   - [Training Classifier](#training)
   - [Starting the Web App](#starting)
 - [Conclusion](#conclusion)
-- [Files](#files)
-- [Software Requirements](#sw)
-- [Credits and Acknowledgements](#credits)
+
 
 ***
 
@@ -63,13 +61,13 @@ Running [this command](#com) **from app directory** will start the web app where
 
 
 
-![master](img/master.jpg)
+(img/master.jpg)
 
 What the app will do is that it will classify the text message into categories so that appropriate relief agency can be reached out for help.
 
 
 
-![results](img/res1.jpg)
+(img/res1.jpg)
 
 <a id='run'></a>
 
