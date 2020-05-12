@@ -57,7 +57,7 @@ File _models/train_classifier.py_ contains machine learning pipeline that:
 
 <a id='eg'></a>
 
-Running [this command](#com) **from app directory** will start the web app where users can enter their query, i.e., a request message sent during a natural disaster, e.g. _"Please, we need tents and water. We are in Silo, Thank you!"_.
+Running [this command](#com) **from app directory** will start the web app where users can enter their query, i.e., a request message sent during a natural disaster, e.g. _"somone kill another!"_.
 
 
 
@@ -85,13 +85,11 @@ There are three steps to get up and runnning with the web app if you want to sta
 python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
 ```
 
-The first two arguments are input data and the third argument is the SQLite Database in which we want to save the cleaned data. The ETL pipeline is in _process_data.py_.
+The first two arguments are input data and the third argument is the SQLite 
+Database in which we want to save the cleaned data. The ETL pipeline is in _process_data.py_.
 
-_DisasterResponse.db_ already exists in _data_ folder but the above command will still run and replace the file with same information. 
 
-**_Screenshot 3_**
 
-![process_data](img/process_data.jpg)
 
 <a id='training'></a>
 
@@ -108,18 +106,6 @@ This will use cleaned data to train the model, improve the model with grid searc
 _classifier.pkl_ already exists but the above command will still run and replace the file will same information.
 
 
-![train_classifier_1](img/train_classifier_1.jpg)
-
-It took me around **4 minutes** to train the classifier with grid search.
-
-When the models is saved, it will look something like this.
-
-<a id='acc'></a>
-
-
-
-![train_classifier_2.jpg](img/train_classifier_2.jpg)
-
 <a id='starting'></a>
 
 ### 3.3. Starting the web app
@@ -134,11 +120,13 @@ Now that we have cleaned the data and trained our model. Now it's time to see th
 python run.py
 ```
 
+
+![web_app](img/cap.PNG)
 This will start the web app and will direct you to a URL where you can enter messages and get classification results for it.
 
 
 
-![web_app](img/web_app.jpg)
+
 
 <a id='conclusion'></a>
 
