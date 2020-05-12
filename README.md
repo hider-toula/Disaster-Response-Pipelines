@@ -67,7 +67,7 @@ What the app will do is that it will classify the text message into categories s
 
 
 
-![results](img/res1.png)
+![results](img/res1.PNG)
 
 <a id='run'></a>
 
